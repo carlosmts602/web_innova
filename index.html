@@ -1,90 +1,131 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innova Soluciones</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #fff;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 3px solid #e74c3c;
-        }
-        header img {
-            max-width: 250px;
-            height: auto;
-        }
-        nav {
-            background: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .container {
-            padding: 40px 20px;
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            margin-top: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        h1 { color: #2c3e50; }
-        footer {
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-            font-size: 0.9em;
-            color: #777;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="INNOVA - Tecnología que impulsa tu negocio. Soluciones digitales, aplicaciones web e inteligencia artificial.">
+  <title>INNOVA | Tecnología que impulsa tu negocio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <img src="logoinnova.png" alt="Logo Innova Soluciones">
+<header class="header">
+  <a href="#inicio" class="logo">INNOV<span>A</span><small>TECNOLOGÍA QUE IMPULSA TU NEGOCIO</small></a>
+  <nav>
+    <a class="active" href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#clientes">Clientes</a>
+    <a href="#contactanos">Contáctanos</a>
+  </nav>
+  <a class="btn btn-red" href="#contactanos">Hablemos →</a>
 </header>
 
-<nav>
-    <a href="#">Inicio</a>
-    <a href="#">Servicios</a>
-    <a href="#">Nosotros</a>
-    <a href="#">Contacto</a>
-</nav>
+<main>
+<section id="inicio" class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">SOLUCIONES DIGITALES + IA</p>
+    <h1>Ideas que se convierten en <span>soluciones reales.</span></h1>
+    <p class="lead">Desarrollamos aplicaciones y soluciones con Inteligencia Artificial que optimizan procesos, mejoran la eficiencia y generan resultados.</p>
+    <div class="actions">
+      <a class="btn btn-red" href="#servicios">Conoce nuestros servicios →</a>
+      <a class="btn btn-outline" href="#contactanos">Hablemos</a>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="glow"></div>
+    <div class="ai-card card-one">◈<b> IA</b><small>Automatización</small></div>
+    <div class="ai-card card-two">▥<b> Datos</b><small>Decisiones</small></div>
+    <div class="ai-card card-three">⌁<b> Cloud</b><small>Escalabilidad</small></div>
+  </div>
+</section>
 
-<div class="container">
-    <h1>Bienvenido a Innova Soluciones</h1>
-    <p>Somos una empresa dedicada a brindar soluciones innovadoras para potenciar tu negocio. Nos enfocamos en la excelencia, la tecnología y el servicio personalizado.</p>
-    
-    <h2>Nuestros Servicios</h2>
-    <ul>
-        <li>Consultoría estratégica</li>
-        <li>Desarrollo de software a medida</li>
-        <li>Soluciones digitales integrales</li>
-    </ul>
+<section class="highlights">
+  <div><strong>⚡</strong><span><b>Más rápido</b>Desarrolla en días, no meses.</span></div>
+  <div><strong>↗</strong><span><b>Más eficiente</b>Automatiza procesos con IA.</span></div>
+  <div><strong>⤢</strong><span><b>Mayor alcance</b>Llega a más clientes.</span></div>
+  <div><strong>◈</strong><span><b>Más seguro</b>Soluciones escalables.</span></div>
+</section>
 
-    <p>¿Listo para llevar tu negocio al siguiente nivel? Contáctanos hoy mismo.<a href="https://www.linkedin.com/company/innovaperu">Ir a Innova</a></p>
-</div>
+<section id="nosotros" class="section about">
+  <div class="about-image"><div class="image-placeholder">INNOVA<br><small>TECNOLOGÍA + IA</small></div></div>
+  <div>
+    <p class="eyebrow dark">NOSOTROS</p>
+    <h2>Impulsamos la transformación <span>digital</span> de tu empresa.</h2>
+    <p>En INNOVA creemos en la tecnología como motor de crecimiento. Ayudamos a empresas a modernizar sus procesos, conectar sus operaciones y aprovechar el poder de la Inteligencia Artificial para generar valor real.</p>
+    <div class="stats">
+      <div><b>+100</b><small>Proyectos implementados</small></div>
+      <div><b>+20</b><small>Clientes</small></div>
+      <div><b>100%</b><small>Comprometidos con resultados</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="servicios" class="services">
+  <div class="section-head">
+    <p class="eyebrow">SERVICIOS</p>
+    <h2>Soluciones tecnológicas <span>para cada etapa</span> de tu negocio.</h2>
+  </div>
+  <div class="service-grid">
+    <article class="service"><i>&lt;/&gt;</i><h3>Desarrollo de Aplicaciones Web</h3><p>Creamos aplicaciones a medida para tus procesos y necesidades.</p><a href="https://www.linkedin.com/company/innovaperu">→</a></article>
+    <article class="service"><i>▣</i><h3>Páginas Web Corporativas</h3><p>Diseño moderno, rápido y optimizado para tus clientes.</p><a href="https://www.linkedin.com/company/innovaperu">→</a></article>
+    <article class="service"><i>◈</i><h3>Soluciones con Inteligencia Artificial</h3><p>Agentes IA, chatbots, automatización y análisis de datos.</p><a href="https://www.linkedin.com/company/innovaperu">→</a></article>
+    <article class="service"><i>⌘</i><h3>Staffing y Hunting TI</h3><p>Talento de TI especializado para tu empresa.</p><a href="https://www.linkedin.com/company/innovaperu">→</a></article>
+  </div>
+</section>
+
+<section id="clientes" class="section clients">
+  <div>
+    <p class="eyebrow dark">CLIENTES</p>
+    <h2>Empresas que confían en <span>INNOVA.</span></h2>
+    <p>Trabajamos con organizaciones de distintos sectores que buscan innovar, crecer y ser más competitivas.</p>
+    <a class="btn btn-outline red" href="#contactanos">Ver casos de éxito →</a>
+  </div>
+  <div class="client-box">
+    <div class="logos"><b>Wolver</b><b>Sonda</b><b>Claro</b><b>Interbank</b><b>BCP</b></div>
+    <blockquote>“INNOVA nos ayudó a acelerar nuestra transformación digital con una solución que realmente se adapta a nuestro negocio.”</blockquote>
+    <small>Gerente de Tecnología · Empresa del sector Telecom</small>
+  </div>
+</section>
+
+<section id="contactanos" class="contact">
+  <div>
+    <p class="eyebrow">CONTÁCTANOS</p>
+    <h2>Hablemos sobre <span>tu proyecto.</span></h2>
+    <p>Cuéntanos qué necesitas y te contactaremos lo antes posible.</p>
+    <div class="contact-data">
+      <p>✉ https://www.linkedin.com/company/innovaperu</p>
+      <p>☎ +51 935 672 049</p>
+      <p>⌖ Lima, Perú</p>
+    </div>
+  </div>
+  <form onsubmit="sendForm(event)">
+    <input required placeholder="Nombre completo *">
+    <input required placeholder="Empresa *">
+    <input type="email" required placeholder="Correo electrónico *">
+    <input placeholder="Teléfono">
+    <textarea required placeholder="¿Cómo podemos ayudarte? *"></textarea>
+    <button class="btn btn-red" type="submit">Enviar mensaje →</button>
+  </form>
+</section>
+</main>
 
 <footer>
-    &copy; 2026 Innova Soluciones. Todos los derechos reservados.
+  <a href="#inicio" class="logo">INNOV<span>A</span><small>TECNOLOGÍA QUE IMPULSA TU NEGOCIO</small></a>
+  <p>© 2026 INNOVA. Todos los derechos reservados.</p>
+  <div><a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#servicios">Servicios</a><a href="#clientes">Clientes</a><a href="#contactanos">Contáctanos</a></div>
 </footer>
 
+<a class="whatsapp" href="https://wa.me/51935672049" target="_blank" aria-label="WhatsApp">◔</a>
+<script>
+function sendForm(e){
+  e.preventDefault();
+  alert("Gracias. Hemos recibido tu mensaje y pronto nos pondremos en contacto contigo.");
+  e.target.reset();
+}
+</script>
 </body>
 </html>
